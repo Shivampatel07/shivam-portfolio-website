@@ -1,0 +1,36 @@
+.navbar {
+	color: #fff;
+	background: hsla(0,0%,100%,.1);
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 30px;
+	font-size: 1.3rem;
+}
+
+.navbar-menu {
+	display:  flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.navbar-menu li {
+	cursor: pointer;
+	padding: 5px 15px;
+	background-color:  hsla(0, 0%, 45%, 0.162);
+	border-radius: 5px;
+}
+
+.navbar-menu li:hover {
+	cursor: pointer;
+	padding: 5px 15px;
+	background-color:  hsla(105, 100%, 49%, 0.325);
+	border-radius: 5px;
+}
+
+.logo {
+	font-size: 1.7rem;
+	font-weight: 600;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
