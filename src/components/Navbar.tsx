@@ -7,7 +7,8 @@ import { faBars } from '@fortawesome/free-solid-svg-icons/faBars'
 export default function Navbar() {
 	const [isCollapse, setIsCollapse] = useState(false)
   return (
-	  <div className={'navbar'}>
+	  <nav>
+		  <div className={'navbar'}>
 		  <div className='logo'>
 			  Shivam Portfolio
 		  </div>
@@ -23,5 +24,6 @@ export default function Navbar() {
 			  
 		  </div>
 	</div>
+	  </nav>
   )
 }
