@@ -25,7 +25,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Navbar />
-        <RenderThreeJs />
+        {/* <RenderThreeJs /> */}
         {children}
       </body>
     </html>
